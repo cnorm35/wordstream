@@ -85,9 +85,11 @@
 }
 
 	#ppc {
-		min-height: 275px;
+		/*min-height: 275px;*/
 		margin-top: 50px;
 		margin-left: 10px;
+		border-bottom: solid grey 1px;
+		padding-bottom: 10px;
 	}
 
 		#ppc h3 {
@@ -122,9 +124,16 @@
 
 		}
 
+		#ppc p:last-child {
+			padding-left: 35px;
+			margin-top: 5px;
+		}
+
 	#sidebar #performance {
-		min-height: 265px;
-		background-color: deepskyblue;
+		/*min-height: 265px;
+		background-color: deepskyblue;*/
+		margin-left: 5px;
+		margin-top: 20px; 
 	}
 
 /*-----------Refactor these into a class?---------------*/
