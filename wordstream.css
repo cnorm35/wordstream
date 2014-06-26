@@ -101,25 +101,25 @@
 		}
 
 		#schedule {
-			display: block;
-			width: 215px;
-			padding: 5px;
-			color: white;
-			font-weight: bold;
 			background-color: rgb(37,118,173);
-			font-size: 1.1em;
 			margin-top: 15px;
 		}
 
 		#free-trial {
+			background-color: darkorange;
+			margin-top: 5px;
+			}
+
+		.sidebar-button {
 			display: block;
 			width: 215px;
 			padding: 5px;
 			color: white;
 			font-weight: bold;
-			background-color: darkorange;
-			font-size: 1.1em;
-			margin-top: 5px;
+			font-size:1.1em;
+			border-radius: 5px;
+			border: none;
+
 		}
 
 	#sidebar #performance {
