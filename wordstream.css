@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .95em;
+}
+
+#container {
+	width: 1000px;
+}
+
+#header {
+	display: inline-block;
+}
+
+#header-left {
+	/*width: 500px;*/
+	display: inline-block;
+}
+#header-right {
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.button {
+	border-radius: 5px;
+	border: none;
+}
+
+#nav {
+	height: 25px;
+		
+}
+
+	#nav li {
+		display: inline;
+		border-right: 1px solid darkgray;
+	}
+
+	#nav ul {
+		display: inline-block;
+		border: solid 1px darkgray;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding: 0px 5px 10px 5px;
+		margin-right: 25px;
+
+	}
+
+	#nav a {
+		margin: 0px 10px;
+		color: darkgray;
+		text-decoration: none;
+
+	}
+
+	#nav li:last-child {
+		border: none;
+	}
+
+	#login {
+		padding: 5px 15px;
+		color: white;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0));
+	}
+	
+
+#banner {
+	height: 50px;
+	background-color: rgb(37,118,173);
+}
+#banner h1 {
+	color: white;
+	padding-top: 15px;
+	font-size: 1.75em;
+}
+
+#sidebar {
+	width: 250px;
+	min-height: 700px;
+	display: inline-block;
+	/*background-color: red;*/
+}
+
+	#ppc {
+		min-height: 275px;
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+
+	#ppc h3 {
+		color: rgb(60,145,200);
+		font-size: 1.25em;
+	}
+
+	#ppc h5 {
+		color: darkorange;
+		margin-top: 15px;
+	}
+
+	#sidebar #performance {
+		min-height: 265px;
+		background-color: deepskyblue;
+	}
+
+/*-----------Refactor these into a class?---------------*/
+
+.content-area {
+	width: 700px;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 700px;
+	/
+}
+
+
+
+
+#contact-info {
+	
+	min-height: 100px;
+	background-color: greenyellow;
+}
+
+#pay-per-click{
+	
+	background-color: yellow;
+	min-height: 270px;
+}
+
+#profits {
+	
+	background-color: darkgreen;
+	min-height: 270px;
+}
+
+#automation {
+	
+	background-color: darkmagenta;
+	min-height: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
