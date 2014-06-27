@@ -5,6 +5,10 @@
 	font-size: .95em;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 #container {
 	width: 1000px;
 }
@@ -151,28 +155,80 @@
 
 #contact-info {
 	
-	min-height: 100px;
-	background-color: greenyellow;
+	/*min-height: 100px;*/
+	/*background-color: greenyellow;*/
 }
 
-#pay-per-click{
-	
-	background-color: yellow;
-	min-height: 270px;
-}
+
 
 #profits {
 	
-	background-color: darkgreen;
-	min-height: 270px;
+	/*background-color: darkgreen;*/
+	/*min-height: 270px;*/
+	border: 4px solid rgb(37,118,173);
 }
 
 #automation {
 	
-	background-color: darkmagenta;
+	/*background-color: darkmagenta;*/
 	min-height: 165px;
 }
 
+#pay-per-click-list {
+	margin-left: 15px;
+	margin-bottom: 25px;
+}
+
+#pay-per-click h3{
+	color: rgb(60, 145, 200);
+	font-size: 1.25em;
+	margin-bottom: 15px;
+}
+ #pay-per-click p {
+ 	margin-bottom: 15px;
+ }
+
+
+
+ #pay-per-click-list ul {
+ 	list-style-image: url('bullet.png');
+ }
+
+ #profits {
+
+ }
+
+ #profits h3{
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	color: rgb(37,118,173);
+ 	font-size: 1.2em;
+ 	margin-bottom: 5px;
+ }
+
+ #profits p {
+
+ }
+
+ #profits-container {
+ 	width: 575px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ }
+
+#get-started {
+	padding: 10px 20px;
+	margin-top: 10px;
+	color: white;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391));
+	margin-bottom: 5px;
+}
+
+#automation h3 {
+	color: rgb(37,118,173);
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
 
 
 
